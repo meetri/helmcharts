@@ -3,9 +3,9 @@ entries:
   bittrex-ohlc-scraper:
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2018-07-05T19:02:12.71646684-07:00
+    created: 2018-07-05T19:36:46.527919985-07:00
     description: scrape OHLC data from bittrex
-    digest: e6a9a4174f378f19174f1d291c4a685298ca35c802aeb5ba08aa6de352c072a3
+    digest: 9c274727edf146d52ce228a5ac416bcb85ffeb39b3a7cc38031c8b0c4e7e61db
     maintainers:
     - email: meetri@gmail.com
       name: demetrius
@@ -18,7 +18,7 @@ entries:
   cryptodata:
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2018-07-05T19:02:12.718770249-07:00
+    created: 2018-07-05T19:36:46.530656814-07:00
     description: A helm chart to poll market data and store to influxdb
     digest: fbb1b111b45a0c533120102b87ee3b681ae67d2dd15e7b5ad8c24f6aaff5098b
     maintainers:
@@ -33,7 +33,7 @@ entries:
   phoenix:
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2018-07-05T19:02:12.718982385-07:00
+    created: 2018-07-05T19:36:46.530891221-07:00
     description: A Helm chart for the phoenix calendar / clock
     digest: 3f3b4d9e37e9700f908b4e6db3f3cf0669eefb1327e69558852551433f750fb1
     maintainers:
@@ -45,4 +45,4 @@ entries:
     urls:
     - phoenix-1.tgz
     version: "1"
-generated: 2018-07-05T19:02:12.715983439-07:00
+generated: 2018-07-05T19:36:46.527260854-07:00
