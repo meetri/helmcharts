@@ -1,0 +1,7 @@
+#!/bin/bash
+
+helm package ../cryptoscraper/helm/cryptoscraper
+helm package ../cryptodata/helm/cryptodata
+helm package ../phoenix/helm/phoenix
+
+helm repo index .

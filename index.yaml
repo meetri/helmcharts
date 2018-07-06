@@ -1,0 +1,48 @@
+apiVersion: v1
+entries:
+  cryptodata:
+  - apiVersion: v1
+    appVersion: "0.1"
+    created: 2018-07-05T18:47:47.850052685-07:00
+    description: A helm chart to poll market data and store to influxdb
+    digest: fbb1b111b45a0c533120102b87ee3b681ae67d2dd15e7b5ad8c24f6aaff5098b
+    maintainers:
+    - email: meetri@gmail.com
+      name: demetrius
+    name: cryptodata
+    sources:
+    - https://github.com/meetri/cryptodata
+    urls:
+    - cryptodata-0.5.tgz
+    version: "0.5"
+  cryptoscraper:
+  - apiVersion: v1
+    appVersion: "0.1"
+    created: 2018-07-05T18:47:47.850342971-07:00
+    description: scrape OHLC data from bittrex
+    digest: 3e27678e70546dcc1e3318f68d12f7b6c0798ca033994a925068f23f3130e2fd
+    maintainers:
+    - email: meetri@gmail.com
+      name: demetrius
+    name: cryptoscraper
+    sources:
+    - https://github.com/meetri/cryptoscraper
+    urls:
+    - cryptoscraper-0.5.tgz
+    version: "0.5"
+  phoenix:
+  - apiVersion: v1
+    appVersion: "0.1"
+    created: 2018-07-05T18:47:47.85057203-07:00
+    description: A Helm chart for the phoenix calendar / clock
+    digest: 3f3b4d9e37e9700f908b4e6db3f3cf0669eefb1327e69558852551433f750fb1
+    maintainers:
+    - email: meetri@gmail.com
+      name: demetrius
+    name: phoenix
+    sources:
+    - https://github.com/meetri/phoenix
+    urls:
+    - phoenix-1.tgz
+    version: "1"
+generated: 2018-07-05T18:47:47.847077239-07:00
