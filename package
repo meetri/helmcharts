@@ -1,6 +1,7 @@
 #!/bin/bash
 
 helm package ../cryptoscraper/helm/bittrex-ohlc-scraper
+helm package ../cryptoscraper/helm/twitter-stats-scraper
 helm package ../cryptoscraper/helm/bittrex-ohlc-scraper-env
 helm package ../cryptodata/helm/cryptodata
 helm package ../phoenix/helm/phoenix

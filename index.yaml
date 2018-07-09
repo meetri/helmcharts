@@ -3,9 +3,9 @@ entries:
   bittrex-ohlc-scraper:
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2018-07-08T17:50:28.777534837-07:00
+    created: 2018-07-08T19:45:20.474530786-07:00
     description: scrape OHLC data from bittrex
-    digest: 9ec1e679624c362fe54b32d37dc9481bba1c03da3c24925b18195533e8499036
+    digest: 9b03554bf3dfa1d56120ff8b43a372c03a5f5d09a9be4e0e6099e80436203dae
     maintainers:
     - email: meetri@gmail.com
       name: demetrius
@@ -18,9 +18,9 @@ entries:
   bittrex-ohlc-scraper-env:
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2018-07-08T17:50:28.777924559-07:00
+    created: 2018-07-08T19:45:20.474887462-07:00
     description: scrape OHLC data from bittrex
-    digest: accdd41098a4a473d77a793fa178d0cb0c798dfd3ea0124e569d91207de86ad3
+    digest: f84f4e8f22a4dcb57c84ec528fd495d6173bc4699ed16d16e1b49b6bae406440
     maintainers:
     - email: meetri@gmail.com
       name: demetrius
@@ -33,9 +33,9 @@ entries:
   cryptodata:
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2018-07-08T17:50:28.781171693-07:00
+    created: 2018-07-08T19:45:20.477667426-07:00
     description: A helm chart to poll market data and store to influxdb
-    digest: e7816d14676ad000484fba2fe5ebf78d5c6de23e9f614c494e39dc7afaebfbda
+    digest: 9a601d75942122f782d04dec0239a6ed2b9256158c24bd6ca894b1dc1a1b323f
     maintainers:
     - email: meetri@gmail.com
       name: demetrius
@@ -48,7 +48,7 @@ entries:
   phoenix:
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2018-07-08T17:50:28.781408625-07:00
+    created: 2018-07-08T19:45:20.477870503-07:00
     description: A Helm chart for the phoenix calendar / clock
     digest: 3f3b4d9e37e9700f908b4e6db3f3cf0669eefb1327e69558852551433f750fb1
     maintainers:
@@ -60,4 +60,19 @@ entries:
     urls:
     - phoenix-1.tgz
     version: "1"
-generated: 2018-07-08T17:50:28.776976486-07:00
+  twitter-stats-scraper:
+  - apiVersion: v1
+    appVersion: "0.1"
+    created: 2018-07-08T19:45:20.478082124-07:00
+    description: twitter stat scraper
+    digest: b9f45f0472c57e4ce45728a8c2353da959f8e1069df0012fb67b35aa87e9ac4c
+    maintainers:
+    - email: meetri@gmail.com
+      name: demetrius
+    name: twitter-stats-scraper
+    sources:
+    - https://github.com/meetri/cryptoscraper
+    urls:
+    - twitter-stats-scraper-0.5.tgz
+    version: "0.5"
+generated: 2018-07-08T19:45:20.474029948-07:00
