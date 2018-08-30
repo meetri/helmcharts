@@ -1,5 +1,5 @@
 #!/bin/bash
-
+helm package ../cryptocalc/helm/CryptoBot/
 helm package ../cryptoscraper/helm/bittrex-ohlc-scraper
 helm package ../cryptoscraper/helm/twitter-stats-scraper
 helm package ../cryptoscraper/helm/bittrex-ohlc-scraper-env

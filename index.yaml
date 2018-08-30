@@ -1,9 +1,24 @@
 apiVersion: v1
 entries:
+  CryptoBot:
+  - apiVersion: v1
+    appVersion: "0.2"
+    created: 2018-08-29T18:40:11.486525929-07:00
+    description: CryptoBot
+    digest: ae91f068e088a6b073f353d5280c99f3e29fefa32e0e233001d8bd4073895cb3
+    maintainers:
+    - email: meetri@gmail.com
+      name: demetrius
+    name: CryptoBot
+    sources:
+    - https://github.com/meetri/cryptoscraper
+    urls:
+    - CryptoBot-0.2.tgz
+    version: "0.2"
   bittrex-ohlc-scraper:
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2018-07-20T09:07:45.481976741-07:00
+    created: 2018-08-29T18:40:11.486820562-07:00
     description: scrape OHLC data from bittrex
     digest: 7c78203e142e67eb9e5c2cddd5cb4c36694de7b1fc99cbdcd95dbcd7574cccc0
     maintainers:
@@ -18,9 +33,9 @@ entries:
   bittrex-ohlc-scraper-env:
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2018-07-20T09:07:45.482423399-07:00
+    created: 2018-08-29T18:40:11.487301652-07:00
     description: scrape OHLC data from bittrex
-    digest: 0035083cac47b77e67716452a8594a67828afbfbb8a7e1eb9f8adf2db6a38f2f
+    digest: 66e79a3c7b715513ab17aa500109802f80afac0d35ad6c8b6b7ecb80dba0c281
     maintainers:
     - email: meetri@gmail.com
       name: demetrius
@@ -33,9 +48,9 @@ entries:
   cryptodata:
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2018-07-20T09:07:45.485282263-07:00
+    created: 2018-08-29T18:40:11.490140533-07:00
     description: A helm chart to poll market data and store to influxdb
-    digest: 584746bf0a8349d5617cb13fc6cc25d2b5b5b77ab8d5964bace13e43060db8da
+    digest: 54cb637e979b6ced0f383a20a3e284495971da1f4313faf9e51e1f9624834a9c
     maintainers:
     - email: meetri@gmail.com
       name: demetrius
@@ -48,7 +63,7 @@ entries:
   phoenix:
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2018-07-20T09:07:45.485486659-07:00
+    created: 2018-08-29T18:40:11.490343277-07:00
     description: A Helm chart for the phoenix calendar / clock
     digest: 3f3b4d9e37e9700f908b4e6db3f3cf0669eefb1327e69558852551433f750fb1
     maintainers:
@@ -63,7 +78,7 @@ entries:
   twitter-stats-scraper:
   - apiVersion: v1
     appVersion: "0.1"
-    created: 2018-07-20T09:07:45.485676119-07:00
+    created: 2018-08-29T18:40:11.490634575-07:00
     description: twitter stat scraper
     digest: a0398d3241eaa28f47342b13a0d36e98e17135cdaf598c01e604951f864f8b46
     maintainers:
@@ -75,4 +90,4 @@ entries:
     urls:
     - twitter-stats-scraper-0.5.tgz
     version: "0.5"
-generated: 2018-07-20T09:07:45.481426247-07:00
+generated: 2018-08-29T18:40:11.486078348-07:00
